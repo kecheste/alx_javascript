@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Creating and Removing Elements</title>
+  </head>
+  <body>
+    <div id="container"></div>
+  </body>
+</html>
+<script>
+  let container = document.getElementById("container");
+  let p = document.createElement("p");
+  p.innerHTML = "New paragraph";
+  container.appendChild(p);
+</script>
